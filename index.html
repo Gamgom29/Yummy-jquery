@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Yummy</title>
+</head>
+<body>
+    <div class="loadingscreen position-fixed top-0 start-0 end-0 bottom-0 bg-black align-items-center justify-content-center ">
+        <span class="loader"></span>
+    </div>
+    <div class="sidenav d-flex">
+        <div class="leftside-nav">
+            <div class="lefts-content container mt-3">
+                <ul class="list-unstyled d-flex flex-column">
+                    <li class="p-2"><a  id="search" class="text-decoration-none text-white" href="#">Search</a></li>
+                    <li class="p-2"><a id="categories" class="text-decoration-none text-white" href="#">Categories</a></li>
+                    <li class="p-2"><a id="area" class="text-decoration-none text-white" href="#">Area</a></li>
+                    <li class="p-2"><a id="ingredients" class="text-decoration-none text-white" href="#">Ingredients</a></li>
+                    <li class="p-2"><a id="Contact" class="text-decoration-none text-white" href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="rightside-nav d-flex flex-column justify-content-between align-items-center">
+            <img src="img/logo.png" alt="" class="w-75 logo-ico">
+            <i class="fa-solid fa-bars icon"></i>
+            <div class="d-flex flex-column gap-1">
+                <i class="fa-solid fa-globe"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+        
+    </div>
+    <div class=" container">
+        <div class="sec-loading-screen position-fixed top-0 start-0 bottom-0 end-0 bg-black align-items-center justify-content-center d-none">
+            <span class="loader"></span>
+        </div>
+        <div id="search-frm" class="d-flex gap-2 text-white mt-3 d-none">
+        </div>
+        <div class="main-screen row g-4 py-4">
+        
+        </div>
+    </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
