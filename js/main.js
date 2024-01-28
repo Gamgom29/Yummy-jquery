@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 $('.logo-ico').on('click' , function (){
     inputArea.classList.add('d-none');
-    defaultDisplay();
+    searchByName("");
 });
 function navAnimation(){
     leftside.animate({width : 'toggle'},500,function(){
